@@ -249,11 +249,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 20,
-    paddingTop: Platform.OS === 'android' ? 40 : 20,
+    paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight + 40 : 60,
   },
   backButton: {
     position: 'absolute',
-    top: Platform.OS === 'android' ? 40 : 20,
+    top: Platform.OS === 'android' ? StatusBar.currentHeight + 20 : 40,
     left: 20,
     zIndex: 10,
     width: 40,

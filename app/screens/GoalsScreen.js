@@ -1,17 +1,19 @@
 import React from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, Image, ScrollView } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, Image, ScrollView, StatusBar, Platform } from 'react-native';
 import { Ionicons, MaterialIcons, FontAwesome5 } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
 
 export default function GoalsScreen({ navigation }) {
   return (
     <LinearGradient
-      colors={['#6a11cb', '#2575fc']}
+      colors={['#00c6ff', '#0072ff']}
       style={styles.container}
     >
+      <StatusBar barStyle="light-content" backgroundColor="#00c6ff" />
+      
       {/* Back Button */}
       <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
-        <Ionicons name="arrow-back" size={28} color="#fff" />
+        <Ionicons name="arrow-back" size={26} color="#fff" />
       </TouchableOpacity>
 
       {/* Title */}
@@ -90,17 +92,20 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 20,
-    paddingTop: 50,
+    paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight + 40 : 60,
     alignItems: 'center',
   },
   backButton: {
     position: 'absolute',
-    top: 40,
+    top: Platform.OS === 'android' ? StatusBar.currentHeight + 20 : 40,
     left: 20,
-    zIndex: 1,
-    padding: 10,
-    borderRadius: 50,
-    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+    zIndex: 10,
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: 'rgba(0, 0, 0, 0.2)',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   title: {
     fontSize: 24,
