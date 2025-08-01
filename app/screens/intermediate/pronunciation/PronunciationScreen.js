@@ -49,8 +49,8 @@ export default function PronunciationScreen() {
   const exercises = [
     {
       id: 1,
-      title: 'Vowel Sounds',
-      description: 'Master long and short vowel sounds for natural speaking',
+      title: 'Vowels',
+      description: 'Long and short vowel sounds',
       icon: 'waveform',
       color: '#4FC3F7',
       activities: [
@@ -135,8 +135,8 @@ export default function PronunciationScreen() {
     },
     {
       id: 2,
-      title: 'Consonant Clusters',
-      description: 'Master difficult consonant combinations for clearer speech',
+      title: 'Pronunciation Practice',
+      description: 'Consonant combinations for clearer speech',
       icon: 'language-typescript',
       color: '#7986CB',
       activities: [
@@ -221,8 +221,8 @@ export default function PronunciationScreen() {
     },
     {
       id: 3,
-      title: 'Word Stress',
-      description: 'Practice correct syllable emphasis in multi-syllable words',
+      title: 'Accent in Words',
+      description: 'Syllable emphasis in multi-syllable words',
       icon: 'music-note',
       color: '#9575CD',
       activities: [
@@ -307,8 +307,8 @@ export default function PronunciationScreen() {
     },
     {
       id: 4,
-      title: 'Intonation Patterns',
-      description: 'Practice rising and falling tones for natural conversation',
+      title: 'Tone in Conversations',
+      description: 'Rising and falling tones for natural conversation',
       icon: 'chart-line-variant',
       color: '#4DB6AC',
       activities: [
@@ -393,8 +393,8 @@ export default function PronunciationScreen() {
     },
     {
       id: 5,
-      title: 'Rhythm & Fluency',
-      description: 'Practice natural speech rhythm and connected speech patterns',
+      title: 'Smooth Speaking Practice',
+      description: 'Natural rhythm and connected speech',
       icon: 'metronome',
       color: '#FF7043',
       activities: [

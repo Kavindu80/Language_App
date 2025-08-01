@@ -24,12 +24,12 @@ export default function IntermediateLanguageSkillsScreen() {
     { 
       id: 1, 
       title: 'Pronunciation',
-      description: 'Practice proper pronunciation of sounds and words',
+      description: 'Speak English confidently with clear pronunciation',
       screen: 'pronunciation/Pronunciation'
     },
     { 
       id: 2, 
-      title: 'Reading Comprehension',
+      title: 'Reading and Comprehension',
       description: 'Practice reading and understanding paragraphs',
       screen: 'reading/ReadingComprehension'
     },
