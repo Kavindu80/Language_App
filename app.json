@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Exlogrn",
+    "slug": "Exlogrn",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.exlogrn.app"
+    },
+    "web": {
+      "favicon": "./assets/app.png"
+    },
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a5e040e5-9026-4cc3-bd1a-16a5e77d56a9"
+      }
+    },
+    "owner": "kavindu1"
+  }
+}
