@@ -198,43 +198,43 @@ export default function IdiomaticExpressionsScreen() {
           expression: 'Once in a blue moon', 
           meaning: 'Very rarely',
           example: 'I only see my cousins from abroad once in a blue moon.',
-          usage: 'Used to describe something that happens very infrequently.'
+          usage: 'Describes something that happens very infrequently.'
         },
         { 
           expression: 'Beat around the bush', 
           meaning: 'To avoid getting to the point',
           example: 'Stop beating around the bush and tell me what happened.',
-          usage: 'Used when someone is avoiding the main point of a discussion.'
+          usage: 'Avoiding the main topic.'
         },
         { 
           expression: 'In the nick of time', 
           meaning: 'Just before it\'s too late',
           example: 'The firefighters arrived in the nick of time to save the building.',
-          usage: 'Used to describe something that happens at the last possible moment.'
+          usage: 'Describes perfect timing to prevent something bad.'
         },
         { 
           expression: 'When pigs fly', 
           meaning: 'Something that will never happen',
           example: 'He\'ll apologize when pigs fly.',
-          usage: 'Used to express the impossibility of something happening.'
+          usage: 'Used to show disbelief or sarcasm.'
         },
         { 
           expression: 'Kill two birds with one stone', 
           meaning: 'To accomplish two things with a single action',
-          example: 'By taking my laptop to the cafe, I killed two birds with one stone: I got work done and enjoyed my favorite coffee.',
-          usage: 'Used when someone efficiently achieves two objectives with one action.'
+          example: 'By taking my laptop to the café, I killed two birds with one stone: I got work done and enjoyed my favorite coffee.',
+          usage: 'Doing two tasks efficiently at once.'
         },
         { 
           expression: 'The last straw', 
-          meaning: 'The final problem in a series that causes someone to finally lose patience',
-          example: 'When he arrived late for the third time this week, it was the last straw, and his boss fired him.',
-          usage: 'Used to describe the final incident that makes a situation unbearable.'
+          meaning: 'The final problem that causes someone to lose patience',
+          example: 'When he arrived late again, it was the last straw, and his boss fired him.',
+          usage: 'Describes the final issue that leads to a reaction.'
         },
         { 
           expression: 'Cut to the chase', 
           meaning: 'Get to the point without wasting time',
-          example: 'Let\'s cut to the chase—are you interested in the offer or not?',
-          usage: 'Used when someone wants to get directly to the main point.'
+          example: 'Let\'s cut to the chase: are you interested in the offer or not?',
+          usage: 'Skipping unnecessary details.'
         }
       ]
     }
