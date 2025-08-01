@@ -7,7 +7,8 @@ import {
   Image, 
   Animated, 
   Dimensions,
-  StatusBar 
+  StatusBar,
+  Platform 
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons, MaterialIcons } from '@expo/vector-icons';
@@ -162,13 +163,13 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingTop: 60,
+    paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight + 40 : 60,
     paddingBottom: 40,
     paddingHorizontal: 20,
   },
   backButton: {
     position: 'absolute',
-    top: 40,
+    top: Platform.OS === 'android' ? StatusBar.currentHeight + 20 : 40,
     left: 20,
     zIndex: 10,
     width: 40,
@@ -180,7 +181,7 @@ const styles = StyleSheet.create({
   },
   profileButton: {
     position: 'absolute',
-    top: 40,
+    top: Platform.OS === 'android' ? StatusBar.currentHeight + 20 : 40,
     right: 20,
     zIndex: 10,
     width: 40,
