@@ -1022,13 +1022,7 @@ export default function WordFormationScreen() {
         </ScrollView>
       </View>
       
-      {/* Floating Action Button */}
-      <TouchableOpacity 
-        style={styles.fab}
-        onPress={() => navigation.navigate('Search')}
-      >
-        <Ionicons name="search" size={24} color="#fff" />
-      </TouchableOpacity>
+
       
       {/* Item Detail Modal */}
       <Modal
