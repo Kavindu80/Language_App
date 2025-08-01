@@ -54,37 +54,37 @@ export default function IdiomaticExpressionsScreen() {
           expression: 'Think outside the box', 
           meaning: 'To think creatively and unconventionally',
           example: 'We need to think outside the box to solve this complex problem.',
-          usage: 'Used to encourage innovative thinking beyond conventional approaches.'
+          usage: 'Encourage innovative thinking beyond conventional approaches.'
         },
         { 
           expression: 'Back to square one', 
           meaning: 'To start over from the beginning',
           example: 'Our proposal was rejected, so we\'re back to square one.',
-          usage: 'Used when progress is lost and you need to restart a process.'
+          usage: 'Describes losing progress and needing to restart a process.'
         },
         { 
           expression: 'Cut corners', 
           meaning: 'To do something in the easiest or cheapest way, often sacrificing quality',
           example: 'The contractor cut corners when building the office, and now we\'re having problems.',
-          usage: 'Used to describe taking shortcuts that may lead to problems later.'
+          usage: 'Refers to shortcuts that may cause future issues.'
         },
         { 
           expression: 'Get the ball rolling', 
           meaning: 'To start a process or project',
           example: 'Let\'s get the ball rolling on the new marketing campaign.',
-          usage: 'Used when initiating action on something that needs to be done.'
+          usage: 'Used when beginning a task or activity.'
         },
         { 
           expression: 'Raise the bar', 
           meaning: 'To set a higher standard',
           example: 'Their presentation really raised the bar for future projects.',
-          usage: 'Used when someone sets a new, higher standard of quality or performance.'
+          usage: 'Describes setting higher expectations for performance or quality.'
         },
         { 
           expression: 'Call it a day', 
           meaning: 'To stop working on something',
           example: 'We\'ve made good progress, so let\'s call it a day and continue tomorrow.',
-          usage: 'Used to suggest ending work for the day.'
+          usage: 'Used when deciding to end work for the day.'
         }
       ]
     },
@@ -96,45 +96,45 @@ export default function IdiomaticExpressionsScreen() {
       expressions: [
         { 
           expression: 'Hit the hay', 
-          meaning: 'To go to bed or go to sleep',
-          example: 'It\'s getting late, I think I\'ll hit the hay.',
-          usage: 'Used informally when someone is going to sleep.'
+          meaning: 'To go to bed or sleep',
+          example: 'It\'s getting late; I think I\'ll hit the hay.',
+          usage: 'It is an informal way to say going to sleep.'
         },
         { 
           expression: 'Under the weather', 
           meaning: 'Feeling ill or sick',
-          example: 'I can\'t come to the party tonight, I\'m feeling under the weather.',
-          usage: 'Used as a mild way to say someone is sick.'
+          example: 'I can\'t come to the party; I\'m feeling under the weather.',
+          usage: 'It is a mild expression for feeling unwell.'
         },
         { 
           expression: 'Cost an arm and a leg', 
           meaning: 'To be very expensive',
           example: 'That new smartphone costs an arm and a leg!',
-          usage: 'Used to emphasize that something is extremely expensive.'
+          usage: 'Emphasizes something is extremely expensive.'
         },
         { 
           expression: 'A piece of cake', 
-          meaning: 'Something that is very easy to do',
-          example: 'The exam was a piece of cake; I finished it in half the time.',
-          usage: 'Used to describe tasks that are very simple or easy to accomplish.'
+          meaning: 'Something very easy to do',
+          example: 'The exam was a piece of cake; I finished quickly.',
+          usage: 'Describes simple or effortless tasks.'
         },
         { 
           expression: 'Bite the bullet', 
           meaning: 'To face a difficult situation bravely',
-          example: 'I don\'t want to go to the dentist, but I\'ll have to bite the bullet eventually.',
-          usage: 'Used when someone forces themselves to do something unpleasant but necessary.'
+          example: 'I don\'t want to go to the dentist, but I\'ll have to bite the bullet.',
+          usage: 'It describe doing something unpleasant but necessary.'
         },
         { 
           expression: 'It\'s raining cats and dogs', 
           meaning: 'It\'s raining heavily',
-          example: 'Don\'t forget your umbrella; it\'s raining cats and dogs out there.',
-          usage: 'Used to describe very heavy rainfall.'
+          example: 'Don\'t forget your umbrella; it\'s raining cats and dogs.',
+          usage: 'Describes very heavy rain.'
         },
         { 
           expression: 'Speak of the devil', 
-          meaning: 'Said when someone appears just when you\'ve been talking about them',
+          meaning: 'Said when someone appears just after being talked about',
           example: 'Speak of the devil! We were just talking about you.',
-          usage: 'Used when someone appears right after being mentioned in conversation.'
+          usage: 'Used when someone arrives right after being mentioned.'
         }
       ]
     },
@@ -148,43 +148,43 @@ export default function IdiomaticExpressionsScreen() {
           expression: 'Have butterflies in your stomach', 
           meaning: 'To feel nervous or anxious',
           example: 'I had butterflies in my stomach before my job interview.',
-          usage: 'Used to describe nervous anticipation or anxiety.'
+          usage: 'Describes nervous anticipation or anxiety.'
         },
         { 
           expression: 'Down in the dumps',
           meaning: 'To feel sad or depressed',
           example: 'She\'s been down in the dumps since she lost her job.',
-          usage: 'Used to describe someone who is feeling sad or depressed.'
+          usage: 'Describes feeling low or gloomy.'
         },
         { 
           expression: 'On cloud nine', 
           meaning: 'To be extremely happy',
           example: 'Ever since she got engaged, she\'s been on cloud nine.',
-          usage: 'Used to describe someone who is extremely happy or elated.'
+          usage: 'Expresses extreme happiness.'
         },
         { 
           expression: 'Lose your cool', 
           meaning: 'To become angry or upset',
           example: 'The manager lost his cool when he heard about the mistake.',
-          usage: 'Used when someone becomes angry and loses self-control.'
+          usage: 'Refers to losing one\'s temper.'
         },
         { 
           expression: 'Green with envy', 
           meaning: 'Very jealous',
           example: 'When I showed her my new car, she was green with envy.',
-          usage: 'Used to describe extreme jealousy.'
+          usage: 'Describes intense jealousy.'
         },
         { 
           expression: 'Wear your heart on your sleeve', 
           meaning: 'To openly show your emotions',
           example: 'He always wears his heart on his sleeve, so everyone knows how he feels.',
-          usage: 'Used to describe someone who doesn\'t hide their emotions.'
+          usage: 'Someone who doesn\'t hide emotions.'
         },
         { 
           expression: 'Jump for joy', 
           meaning: 'To be extremely happy about something',
           example: 'The children were jumping for joy when they heard we were going to the amusement park.',
-          usage: 'Used to describe extreme happiness or excitement.'
+          usage: 'Expresses overwhelming happiness or excitement.'
         }
       ]
     },
@@ -198,43 +198,43 @@ export default function IdiomaticExpressionsScreen() {
           expression: 'Once in a blue moon', 
           meaning: 'Very rarely',
           example: 'I only see my cousins from abroad once in a blue moon.',
-          usage: 'Used to describe something that happens very infrequently.'
+          usage: 'Describes something that happens very infrequently.'
         },
         { 
           expression: 'Beat around the bush', 
           meaning: 'To avoid getting to the point',
           example: 'Stop beating around the bush and tell me what happened.',
-          usage: 'Used when someone is avoiding the main point of a discussion.'
+          usage: 'Avoiding the main topic.'
         },
         { 
           expression: 'In the nick of time', 
           meaning: 'Just before it\'s too late',
           example: 'The firefighters arrived in the nick of time to save the building.',
-          usage: 'Used to describe something that happens at the last possible moment.'
+          usage: 'Describes perfect timing to prevent something bad.'
         },
         { 
           expression: 'When pigs fly', 
           meaning: 'Something that will never happen',
           example: 'He\'ll apologize when pigs fly.',
-          usage: 'Used to express the impossibility of something happening.'
+          usage: 'Used to show disbelief or sarcasm.'
         },
         { 
           expression: 'Kill two birds with one stone', 
           meaning: 'To accomplish two things with a single action',
-          example: 'By taking my laptop to the cafe, I killed two birds with one stone: I got work done and enjoyed my favorite coffee.',
-          usage: 'Used when someone efficiently achieves two objectives with one action.'
+          example: 'By taking my laptop to the café, I killed two birds with one stone: I got work done and enjoyed my favorite coffee.',
+          usage: 'Doing two tasks efficiently at once.'
         },
         { 
           expression: 'The last straw', 
-          meaning: 'The final problem in a series that causes someone to finally lose patience',
-          example: 'When he arrived late for the third time this week, it was the last straw, and his boss fired him.',
-          usage: 'Used to describe the final incident that makes a situation unbearable.'
+          meaning: 'The final problem that causes someone to lose patience',
+          example: 'When he arrived late again, it was the last straw, and his boss fired him.',
+          usage: 'Describes the final issue that leads to a reaction.'
         },
         { 
           expression: 'Cut to the chase', 
           meaning: 'Get to the point without wasting time',
-          example: 'Let\'s cut to the chase—are you interested in the offer or not?',
-          usage: 'Used when someone wants to get directly to the main point.'
+          example: 'Let\'s cut to the chase: are you interested in the offer or not?',
+          usage: 'Skipping unnecessary details.'
         }
       ]
     }
