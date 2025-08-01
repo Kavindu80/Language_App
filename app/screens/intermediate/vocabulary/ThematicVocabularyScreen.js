@@ -91,7 +91,7 @@ export default function ThematicVocabularyScreen() {
       id: 2,
       title: 'Shopping',
       icon: 'shopping-bag',
-      description: 'Essential Vocabulary for Stores, Products, and Shopping Experiences',
+      description: 'Common words for products and shopping experiences',
       color: '#FF9800',
       vocabulary: [
         { word: 'Discount', meaning: 'A price reduction', example: 'The store is offering a 20% discount on all items.' },
