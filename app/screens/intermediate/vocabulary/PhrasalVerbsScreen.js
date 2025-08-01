@@ -8,7 +8,6 @@ import {
   Image,
   Animated,
   StatusBar,
-  TextInput,
   Modal
 } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
@@ -19,7 +18,7 @@ export default function PhrasalVerbsScreen() {
   const navigation = useNavigation();
   const [fadeAnim] = useState(new Animated.Value(0));
   const [slideAnim] = useState(new Animated.Value(30));
-  const [searchQuery, setSearchQuery] = useState('');
+
   const [activeTab, setActiveTab] = useState('common');
   
   // New state variables for practice and quiz features
@@ -504,13 +503,10 @@ export default function PhrasalVerbsScreen() {
     }
   };
 
-  // Filter phrasal verbs based on search query
+  // Get phrasal verbs for display
   const filteredVerbs = () => {
     if (activeTab === 'common') {
-      return phrasalVerbsData.common.filter(item => 
-        item.verb.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        item.meaning.toLowerCase().includes(searchQuery.toLowerCase())
-      );
+      return phrasalVerbsData.common;
     } else {
       // For "By Particle" tab, we'll just return all grouped verbs
       return phrasalVerbsData.byParticle;
@@ -574,11 +570,6 @@ export default function PhrasalVerbsScreen() {
         </View>
         
         {phrasalVerbsData.byParticle[particle]
-          .filter(item => 
-            searchQuery === '' || 
-            item.verb.toLowerCase().includes(searchQuery.toLowerCase()) ||
-            item.meaning.toLowerCase().includes(searchQuery.toLowerCase())
-          )
           .map((item, index) => renderPhrasalVerb(item, index))}
       </View>
     ));
@@ -630,26 +621,7 @@ export default function PhrasalVerbsScreen() {
             Common Phrasal Verbs for Everyday English
           </Text>
         </Animated.View>
-        
-        {/* Search Bar */}
-        <View style={styles.searchContainer}>
-          <Ionicons name="search" size={20} color="#8e8e93" style={styles.searchIcon} />
-          <TextInput
-            style={styles.searchInput}
-            placeholder="Search phrasal verbs..."
-            value={searchQuery}
-            onChangeText={setSearchQuery}
-            placeholderTextColor="#8e8e93"
-          />
-          {searchQuery !== '' && (
-            <TouchableOpacity 
-              style={styles.clearButton}
-              onPress={() => setSearchQuery('')}
-            >
-              <AntDesign name="close" size={16} color="#8e8e93" />
-            </TouchableOpacity>
-          )}
-        </View>
+
 
         {/* Tabs */}
         <View style={styles.tabsContainer}>
@@ -685,13 +657,7 @@ export default function PhrasalVerbsScreen() {
         </ScrollView>
       </View>
 
-      {/* Floating Action Button */}
-      <TouchableOpacity 
-        style={styles.fab}
-        onPress={() => navigation.navigate('Search')}
-      >
-        <AntDesign name="search1" size={24} color="#fff" />
-      </TouchableOpacity>
+
       
       {/* Verb Detail Modal */}
       <Modal
@@ -988,32 +954,7 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 25,
     overflow: 'hidden',
   },
-  searchContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#fff',
-    borderRadius: 10,
-    margin: 16,
-    paddingHorizontal: 12,
-    height: 44,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.1,
-    shadowRadius: 2,
-    elevation: 2,
-  },
-  searchIcon: {
-    marginRight: 8,
-  },
-  searchInput: {
-    flex: 1,
-    height: '100%',
-    fontSize: 16,
-    color: '#333',
-  },
-  clearButton: {
-    padding: 6,
-  },
+
   tabsContainer: {
     flexDirection: 'row',
     paddingHorizontal: 16,
