@@ -1119,16 +1119,7 @@ export default function PronunciationExerciseScreen() {
             )}
           </Animated.View>
           
-          {/* Hints and Tips */}
-          <View style={styles.hintsContainer}>
-            <Text style={styles.hintsTitle}>Hints & Tips</Text>
-            <Text style={styles.hintsText}>
-              {currentExercise.id === 1 ? 
-                'Long vowels sound like the name of the letter. Short vowels have a quick, clipped sound.' :
-                'When pronouncing consonant clusters, make sure to articulate each sound clearly but smoothly.'
-              }
-            </Text>
-          </View>
+
         </ScrollView>
         
         {/* Completion Modal */}
@@ -1415,24 +1406,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     marginLeft: 8,
   },
-  hintsContainer: {
-    padding: 16,
-    backgroundColor: '#FFF8E1',
-    borderRadius: 12,
-    borderLeftWidth: 4,
-    borderLeftColor: '#FFB300',
-  },
-  hintsTitle: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#333',
-    marginBottom: 8,
-  },
-  hintsText: {
-    fontSize: 14,
-    color: '#666',
-    lineHeight: 20,
-  },
+
   modalContainer: {
     flex: 1,
     justifyContent: 'center',

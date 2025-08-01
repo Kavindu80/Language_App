@@ -29,7 +29,7 @@ export default function IntermediateReadingExerciseScreen() {
   const [quizResults, setQuizResults] = useState(null);
   const [timer, setTimer] = useState(0);
   const [timerActive, setTimerActive] = useState(true);
-  const [showHint, setShowHint] = useState(false);
+
   const [selectedWords, setSelectedWords] = useState([]);
   const [vocabulary, setVocabulary] = useState([]);
   const [showDefinition, setShowDefinition] = useState(false);
@@ -355,23 +355,7 @@ export default function IntermediateReadingExerciseScreen() {
           <Text style={styles.submitButtonText}>Submit Answers</Text>
         </TouchableOpacity>
         
-        <TouchableOpacity 
-          style={styles.hintButton}
-          onPress={() => setShowHint(!showHint)}
-        >
-          <Ionicons name="bulb-outline" size={18} color="#0072ff" />
-          <Text style={styles.hintButtonText}>
-            {showHint ? "Hide Hints" : "Show Hints"}
-          </Text>
-        </TouchableOpacity>
-        
-        {showHint && (
-          <View style={styles.hintContainer}>
-            <Text style={styles.hintText}>
-              Hint: Remember to carefully read the text and look for key details that directly answer each question.
-            </Text>
-          </View>
-        )}
+
       </View>
     );
   };
@@ -789,28 +773,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
   },
-  hintButton: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginTop: 15,
-    padding: 10,
-  },
-  hintButtonText: {
-    color: '#0072ff',
-    marginLeft: 5,
-    fontWeight: '500',
-  },
-  hintContainer: {
-    backgroundColor: '#E8F4FF',
-    padding: 15,
-    borderRadius: 10,
-    marginTop: 10,
-  },
-  hintText: {
-    color: '#0072ff',
-    fontStyle: 'italic',
-  },
+
   
   // Results styles
   resultsContainer: {

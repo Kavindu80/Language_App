@@ -23,23 +23,23 @@ export default function IntermediateVocabularyScreen() {
   const vocabularyOptions = [
     { 
       id: 1, 
-      title: 'Thematic Vocabulary',
-      description: 'Learn vocabulary for travel, shopping, dining, health, and technology' 
+      title: 'Useful Words',
+      description: 'Essential Vocabulary for Travel, Shopping, Dining, Health, and Technology' 
     },
     { 
       id: 2, 
-      title: 'Idiomatic Expressions',
-      description: 'Master common idiomatic expressions used in everyday conversations' 
+      title: 'Common Idioms',
+      description: 'Common Idiomatic Expressions for Everyday Conversations' 
     },
     { 
       id: 3, 
       title: 'Phrasal Verbs',
-      description: 'Learn essential phrasal verbs to sound more natural in English' 
+      description: 'Common Phrasal Verbs for Everyday English' 
     },
     { 
       id: 4, 
       title: 'Word Formation',
-      description: 'Study prefixes and suffixes to expand your vocabulary' 
+      description: 'Prefixes, Suffixes, and Compounds' 
     },
   ];
 

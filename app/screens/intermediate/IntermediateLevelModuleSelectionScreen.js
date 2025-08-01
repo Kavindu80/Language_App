@@ -19,16 +19,16 @@ export default function IntermediateLevelModuleSelectionScreen() {
     },
     {
       id: 2,
-      title: 'Module 2: Spoken and Comprehension Practice',
+      title: 'Module 2: Language Skills → Spoken and Comprehension Practice',
       screen: 'IntermediateLanguageSkillsScreen',
-      description: 'Spoken, Reading and Comprehension',
+      description: 'Develop reading, writing, speaking and listening skills → Spoken, Reading and Comprehension',
       icon: 'chatbubbles'
     },
     {
       id: 3,
-      title: 'Module 3: Vocabulary',
+      title: 'Module 3: Vocabulary Expansion → Vocabulary',
       screen: 'IntermediateVocabularyScreen',
-      description: 'Words and Phrases',
+      description: 'Useful Daily Words and Phrases',
       icon: 'text'
     }
   ];

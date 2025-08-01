@@ -50,7 +50,7 @@ export default function DailyPracticeScreen() {
       audio: 'seat.mp3',
       options: ['Long Vowel', 'Short Vowel'],
       answerValues: ['long', 'short'],
-      hint: 'Long vowels sound like the name of the letter.'
+
     },
     { 
       type: 'consonant',
@@ -59,7 +59,7 @@ export default function DailyPracticeScreen() {
       audio: 'spring.mp3',
       options: ['SPR', 'STR', 'SPL'],
       answerValues: ['spr', 'str', 'spl'],
-      hint: 'Focus on the initial three consonants.'
+
     },
     { 
       type: 'stress',
@@ -68,7 +68,7 @@ export default function DailyPracticeScreen() {
       audio: 'conduct-n.mp3',
       options: ['First Syllable', 'Second Syllable'],
       answerValues: ['first', 'second'],
-      hint: 'Nouns often stress the first syllable.'
+
     },
     { 
       type: 'intonation',
@@ -77,7 +77,7 @@ export default function DailyPracticeScreen() {
       audio: 'question1.mp3',
       options: ['Rising Intonation', 'Falling Intonation'],
       answerValues: ['rising', 'falling'],
-      hint: 'Yes/no questions typically have rising intonation.'
+
     },
     { 
       type: 'rhythm',
@@ -86,7 +86,7 @@ export default function DailyPracticeScreen() {
       audio: 'sentence-stress1.mp3',
       options: ['Content Words', 'Function Words'],
       answerValues: ['content-words', 'function-words'],
-      hint: 'Content words (nouns, verbs, adjectives) are usually stressed.'
+
     }
   ];
 
@@ -431,13 +431,7 @@ export default function DailyPracticeScreen() {
             )}
           </Animated.View>
           
-          {/* Hints and Tips */}
-          <View style={styles.hintsContainer}>
-            <Text style={styles.hintsTitle}>Hint</Text>
-            <Text style={styles.hintsText}>
-              {currentItem.hint}
-            </Text>
-          </View>
+
           
           {/* Daily Challenge Info */}
           <View style={styles.challengeInfoContainer}>
@@ -691,25 +685,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     marginLeft: 8,
   },
-  hintsContainer: {
-    padding: 16,
-    backgroundColor: '#FFF8E1',
-    borderRadius: 12,
-    borderLeftWidth: 4,
-    borderLeftColor: '#FFB300',
-    marginBottom: 24,
-  },
-  hintsTitle: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    color: '#333',
-    marginBottom: 8,
-  },
-  hintsText: {
-    fontSize: 14,
-    color: '#666',
-    lineHeight: 20,
-  },
+
   challengeInfoContainer: {
     padding: 16,
     backgroundColor: '#F5F9FF',
