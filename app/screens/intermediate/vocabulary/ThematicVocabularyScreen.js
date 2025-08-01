@@ -94,26 +94,26 @@ export default function ThematicVocabularyScreen() {
       description: 'Essential Vocabulary for Stores, Products, and Shopping Experiences',
       color: '#FF9800',
       vocabulary: [
-        { word: 'Discount', meaning: 'A reduction in price', example: 'The store is offering a 20% discount on all items.' },
-        { word: 'Bargain', meaning: 'Something bought at a lower price than usual', example: 'I got a real bargain at the sale.' },
-        { word: 'Receipt', meaning: 'A document showing proof of purchase', example: 'Keep your receipt in case you need to return the item.' },
-        { word: 'Browse', meaning: 'To look through items casually', example: 'I like to browse through the bookstore on weekends.' },
-        { word: 'Refund', meaning: 'Money returned for a returned item', example: 'You can get a refund within 30 days of purchase.' },
-        { word: 'Sale', meaning: 'A period when items are sold at reduced prices', example: 'The summer sale starts next week.' },
-        { word: 'Cashier', meaning: 'A person who handles payments in a store', example: 'The cashier gave me the wrong change.' },
-        { word: 'Shopping cart', meaning: 'A wheeled basket used in stores', example: 'My shopping cart was full of groceries.' },
-        { word: 'Aisle', meaning: 'A passage between shelves in a store', example: 'You can find cereal in aisle 5.' },
-        { word: 'Price tag', meaning: 'A label showing the price of an item', example: 'The price tag says $19.99.' },
-        { word: 'Checkout', meaning: 'The place where you pay for items', example: 'There was a long line at the checkout.' },
-        { word: 'Window shopping', meaning: 'Looking at items in store windows without buying', example: 'We spent the afternoon window shopping in the mall.' },
-        { word: 'Fitting room', meaning: 'A room where you can try on clothes', example: 'The fitting room is at the back of the store.' },
+        { word: 'Discount', meaning: 'A price reduction', example: 'The store is offering a 20% discount on all items.' },
+        { word: 'Bargain', meaning: 'A good deal or something bought at a lower price', example: 'I got a real bargain during the sale.' },
+        { word: 'Receipt', meaning: 'Proof of purchase', example: 'Keep your receipt in case you want to return the item.' },
+        { word: 'Browse', meaning: 'To look around casually without a plan to buy', example: 'I like to browse through the bookstore on weekends.' },
+        { word: 'Refund', meaning: 'Money given back after returning an item', example: 'You can get a refund within 30 days of purchase.' },
+        { word: 'Sale', meaning: 'A time when items are sold at lower prices', example: 'The summer sale starts next week.' },
+        { word: 'Cashier', meaning: 'A person who takes payment in a store', example: 'The cashier gave me the wrong change.' },
+        { word: 'Shopping cart', meaning: 'A wheeled basket for carrying items while shopping', example: 'My shopping cart was full of groceries.' },
+        { word: 'Aisle', meaning: 'A walkway between shelves in a store', example: 'You\'ll find cereal in aisle 5.' },
+        { word: 'Price tag', meaning: 'A label showing an item\'s price', example: 'The price tag says $19.99.' },
+        { word: 'Checkout', meaning: 'The place where you pay for your items', example: 'There was a long line at the checkout.' },
+        { word: 'Window shopping', meaning: 'Looking at store displays without buying', example: 'We spent the afternoon window shopping at the mall.' },
+        { word: 'Fitting room', meaning: 'A small room where you try on clothes', example: 'The fitting rooms are at the back of the store.' },
         { word: 'Size', meaning: 'How large or small something is', example: 'Do you have this shirt in a larger size?' },
-        { word: 'Brand', meaning: 'A type of product made by a particular company', example: 'This brand is known for its quality.' },
-        { word: 'Customer service', meaning: 'Help provided to customers', example: 'I need to speak to customer service about my order.' },
-        { word: 'Warranty', meaning: 'A written guarantee for a product', example: 'The laptop comes with a two-year warranty.' },
-        { word: 'Retailer', meaning: 'A business that sells goods to consumers', example: 'This retailer specializes in outdoor equipment.' },
-        { word: 'Boutique', meaning: 'A small shop selling fashionable clothes or accessories', example: 'She owns a boutique in the city center.' },
-        { word: 'Merchandise', meaning: 'Goods for sale', example: 'The store has a wide range of merchandise.' }
+        { word: 'Brand', meaning: 'A specific company or product line', example: 'This brand is known for its quality.' },
+        { word: 'Customer service', meaning: 'Help and support given to customers', example: 'I called customer service to check my delivery.' },
+        { word: 'Warranty', meaning: 'A written guarantee for a product', example: 'This phone has a one-year warranty.' },
+        { word: 'Retailer', meaning: 'A company or person who sells products directly to buyers', example: 'The retailer specializes in sportswear.' },
+        { word: 'Boutique', meaning: 'A small, stylish shop for clothes or accessories', example: 'She owns a fashion boutique in the city center.' },
+        { word: 'Merchandise', meaning: 'Products or goods available for sale', example: 'The store offers a wide range of merchandise.' }
       ],
       quiz: [
         {
@@ -122,12 +122,12 @@ export default function ThematicVocabularyScreen() {
           correctAnswer: 1
         },
         {
-          question: 'The document showing proof of purchase is called:',
+          question: 'What is the document that shows proof of purchase?',
           options: ['Receipt', 'Bill', 'Invoice', 'Ticket'],
           correctAnswer: 0
         },
         {
-          question: 'When you look through items casually, you:',
+          question: 'When you look at items casually, you:',
           options: ['Search', 'Hunt', 'Browse', 'Scan'],
           correctAnswer: 2
         }
