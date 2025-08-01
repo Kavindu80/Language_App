@@ -54,37 +54,37 @@ export default function IdiomaticExpressionsScreen() {
           expression: 'Think outside the box', 
           meaning: 'To think creatively and unconventionally',
           example: 'We need to think outside the box to solve this complex problem.',
-          usage: 'Used to encourage innovative thinking beyond conventional approaches.'
+          usage: 'Encourage innovative thinking beyond conventional approaches.'
         },
         { 
           expression: 'Back to square one', 
           meaning: 'To start over from the beginning',
           example: 'Our proposal was rejected, so we\'re back to square one.',
-          usage: 'Used when progress is lost and you need to restart a process.'
+          usage: 'Describes losing progress and needing to restart a process.'
         },
         { 
           expression: 'Cut corners', 
           meaning: 'To do something in the easiest or cheapest way, often sacrificing quality',
           example: 'The contractor cut corners when building the office, and now we\'re having problems.',
-          usage: 'Used to describe taking shortcuts that may lead to problems later.'
+          usage: 'Refers to shortcuts that may cause future issues.'
         },
         { 
           expression: 'Get the ball rolling', 
           meaning: 'To start a process or project',
           example: 'Let\'s get the ball rolling on the new marketing campaign.',
-          usage: 'Used when initiating action on something that needs to be done.'
+          usage: 'Used when beginning a task or activity.'
         },
         { 
           expression: 'Raise the bar', 
           meaning: 'To set a higher standard',
           example: 'Their presentation really raised the bar for future projects.',
-          usage: 'Used when someone sets a new, higher standard of quality or performance.'
+          usage: 'Describes setting higher expectations for performance or quality.'
         },
         { 
           expression: 'Call it a day', 
           meaning: 'To stop working on something',
           example: 'We\'ve made good progress, so let\'s call it a day and continue tomorrow.',
-          usage: 'Used to suggest ending work for the day.'
+          usage: 'Used when deciding to end work for the day.'
         }
       ]
     },
@@ -96,45 +96,45 @@ export default function IdiomaticExpressionsScreen() {
       expressions: [
         { 
           expression: 'Hit the hay', 
-          meaning: 'To go to bed or go to sleep',
-          example: 'It\'s getting late, I think I\'ll hit the hay.',
-          usage: 'Used informally when someone is going to sleep.'
+          meaning: 'To go to bed or sleep',
+          example: 'It\'s getting late; I think I\'ll hit the hay.',
+          usage: 'It is an informal way to say going to sleep.'
         },
         { 
           expression: 'Under the weather', 
           meaning: 'Feeling ill or sick',
-          example: 'I can\'t come to the party tonight, I\'m feeling under the weather.',
-          usage: 'Used as a mild way to say someone is sick.'
+          example: 'I can\'t come to the party; I\'m feeling under the weather.',
+          usage: 'It is a mild expression for feeling unwell.'
         },
         { 
           expression: 'Cost an arm and a leg', 
           meaning: 'To be very expensive',
           example: 'That new smartphone costs an arm and a leg!',
-          usage: 'Used to emphasize that something is extremely expensive.'
+          usage: 'Emphasizes something is extremely expensive.'
         },
         { 
           expression: 'A piece of cake', 
-          meaning: 'Something that is very easy to do',
-          example: 'The exam was a piece of cake; I finished it in half the time.',
-          usage: 'Used to describe tasks that are very simple or easy to accomplish.'
+          meaning: 'Something very easy to do',
+          example: 'The exam was a piece of cake; I finished quickly.',
+          usage: 'Describes simple or effortless tasks.'
         },
         { 
           expression: 'Bite the bullet', 
           meaning: 'To face a difficult situation bravely',
-          example: 'I don\'t want to go to the dentist, but I\'ll have to bite the bullet eventually.',
-          usage: 'Used when someone forces themselves to do something unpleasant but necessary.'
+          example: 'I don\'t want to go to the dentist, but I\'ll have to bite the bullet.',
+          usage: 'It describe doing something unpleasant but necessary.'
         },
         { 
           expression: 'It\'s raining cats and dogs', 
           meaning: 'It\'s raining heavily',
-          example: 'Don\'t forget your umbrella; it\'s raining cats and dogs out there.',
-          usage: 'Used to describe very heavy rainfall.'
+          example: 'Don\'t forget your umbrella; it\'s raining cats and dogs.',
+          usage: 'Describes very heavy rain.'
         },
         { 
           expression: 'Speak of the devil', 
-          meaning: 'Said when someone appears just when you\'ve been talking about them',
+          meaning: 'Said when someone appears just after being talked about',
           example: 'Speak of the devil! We were just talking about you.',
-          usage: 'Used when someone appears right after being mentioned in conversation.'
+          usage: 'Used when someone arrives right after being mentioned.'
         }
       ]
     },
