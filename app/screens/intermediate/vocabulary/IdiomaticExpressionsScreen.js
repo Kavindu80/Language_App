@@ -878,13 +878,7 @@ export default function IdiomaticExpressionsScreen() {
         </View>
       </Modal>
 
-      {/* Floating Action Button */}
-      <TouchableOpacity 
-        style={styles.fab}
-        onPress={() => navigation.navigate('Search')}
-      >
-        <AntDesign name="search1" size={24} color="#fff" />
-      </TouchableOpacity>
+
     </LinearGradient>
   );
 }
