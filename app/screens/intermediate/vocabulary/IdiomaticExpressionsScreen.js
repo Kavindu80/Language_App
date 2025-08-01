@@ -148,43 +148,43 @@ export default function IdiomaticExpressionsScreen() {
           expression: 'Have butterflies in your stomach', 
           meaning: 'To feel nervous or anxious',
           example: 'I had butterflies in my stomach before my job interview.',
-          usage: 'Used to describe nervous anticipation or anxiety.'
+          usage: 'Describes nervous anticipation or anxiety.'
         },
         { 
           expression: 'Down in the dumps',
           meaning: 'To feel sad or depressed',
           example: 'She\'s been down in the dumps since she lost her job.',
-          usage: 'Used to describe someone who is feeling sad or depressed.'
+          usage: 'Describes feeling low or gloomy.'
         },
         { 
           expression: 'On cloud nine', 
           meaning: 'To be extremely happy',
           example: 'Ever since she got engaged, she\'s been on cloud nine.',
-          usage: 'Used to describe someone who is extremely happy or elated.'
+          usage: 'Expresses extreme happiness.'
         },
         { 
           expression: 'Lose your cool', 
           meaning: 'To become angry or upset',
           example: 'The manager lost his cool when he heard about the mistake.',
-          usage: 'Used when someone becomes angry and loses self-control.'
+          usage: 'Refers to losing one\'s temper.'
         },
         { 
           expression: 'Green with envy', 
           meaning: 'Very jealous',
           example: 'When I showed her my new car, she was green with envy.',
-          usage: 'Used to describe extreme jealousy.'
+          usage: 'Describes intense jealousy.'
         },
         { 
           expression: 'Wear your heart on your sleeve', 
           meaning: 'To openly show your emotions',
           example: 'He always wears his heart on his sleeve, so everyone knows how he feels.',
-          usage: 'Used to describe someone who doesn\'t hide their emotions.'
+          usage: 'Someone who doesn\'t hide emotions.'
         },
         { 
           expression: 'Jump for joy', 
           meaning: 'To be extremely happy about something',
           example: 'The children were jumping for joy when they heard we were going to the amusement park.',
-          usage: 'Used to describe extreme happiness or excitement.'
+          usage: 'Expresses overwhelming happiness or excitement.'
         }
       ]
     },
