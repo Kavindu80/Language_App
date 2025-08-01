@@ -29,7 +29,7 @@ export default function IntermediateVocabularyScreen() {
     { 
       id: 2, 
       title: 'Common Idioms',
-      description: 'Common Idiomatic Expressions for Everyday Conversations' 
+      description: 'Common idiomatic expressions for everyday situations' 
     },
     { 
       id: 3, 

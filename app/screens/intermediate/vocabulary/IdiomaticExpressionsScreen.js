@@ -475,7 +475,7 @@ export default function IdiomaticExpressionsScreen() {
           }}
         >
           <Text style={styles.subtitle}>
-            Common Idiomatic Expressions for Everyday Conversations
+            Common English expressions with meanings
           </Text>
         </Animated.View>
 
