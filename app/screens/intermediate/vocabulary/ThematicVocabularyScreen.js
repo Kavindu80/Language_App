@@ -183,29 +183,29 @@ export default function ThematicVocabularyScreen() {
       id: 4,
       title: 'Health',
       icon: 'favorite',
-      description: 'Essential Vocabulary for Medical and Wellness Topics',
+      description: 'Words used in hospitals, clinics, and pharmacies',
       color: '#2196F3',
       vocabulary: [
+        { word: 'Appointment', meaning: 'A scheduled meeting with a doctor', example: 'I have a dentist appointment at 4 PM.' },
+        { word: 'Checkup', meaning: 'A routine medical examination', example: 'She goes for a checkup every year.' },
+        { word: 'Examination', meaning: 'A detailed medical check', example: 'The doctor performed a full examination.' },
         { word: 'Prescription', meaning: 'A written order for medicine', example: 'The doctor gave me a prescription for antibiotics.' },
-        { word: 'Appointment', meaning: 'An arrangement to meet a doctor', example: 'I have a dental appointment tomorrow.' },
-        { word: 'Symptoms', meaning: 'Physical or mental features indicating a condition', example: 'His symptoms include fever and headache.' },
-        { word: 'Recovery', meaning: 'The process of getting better after illness', example: 'Her recovery was faster than expected.' },
-        { word: 'Diagnosis', meaning: 'Identification of an illness or condition', example: 'The doctor made a diagnosis after the tests.' },
-        { word: 'Treatment', meaning: 'Medical care given to a patient', example: 'She\'s undergoing treatment for cancer.' },
-        { word: 'Medication', meaning: 'Medicine or drugs', example: 'Take this medication three times a day.' },
-        { word: 'Specialist', meaning: 'A doctor who focuses on a particular area of medicine', example: 'I was referred to a heart specialist.' },
-        { word: 'Checkup', meaning: 'A routine medical examination', example: 'I go for a checkup once a year.' },
-        { word: 'Surgery', meaning: 'Medical treatment involving an operation', example: 'He needs surgery on his knee.' },
-        { word: 'Patient', meaning: 'A person receiving medical treatment', example: 'The doctor saw ten patients this morning.' },
-        { word: 'Vaccine', meaning: 'A substance used to protect against disease', example: 'Have you had your flu vaccine this year?' },
-        { word: 'Allergy', meaning: 'An abnormal reaction to a substance', example: 'I have an allergy to pollen.' },
-        { word: 'Pharmacy', meaning: 'A place where medicines are prepared and sold', example: 'You can pick up your prescription at the pharmacy.' },
-        { word: 'Infection', meaning: 'A disease caused by germs entering the body', example: 'He\'s taking antibiotics for a throat infection.' },
-        { word: 'Chronic', meaning: 'Persisting for a long time', example: 'She suffers from chronic back pain.' },
-        { word: 'Emergency', meaning: 'A serious situation requiring immediate action', example: 'Call 911 in case of a medical emergency.' },
-        { word: 'Examination', meaning: 'A detailed inspection of someone\'s body', example: 'The doctor performed a thorough examination.' },
-        { word: 'Therapy', meaning: 'Treatment intended to relieve a disorder', example: 'Physical therapy helped him walk again.' },
-        { word: 'Wellness', meaning: 'The state of being in good health', example: 'The company offers wellness programs for employees.' }
+        { word: 'Medication', meaning: 'Medicine used to treat illness', example: 'Take this medication after meals.' },
+        { word: 'Pharmacy', meaning: 'A place where medicines are sold', example: 'I picked up my prescription at the pharmacy.' },
+        { word: 'Patient', meaning: 'A person receiving treatment', example: 'The clinic was full of patients.' },
+        { word: 'Specialist', meaning: 'A doctor for a specific condition', example: 'He saw a heart specialist.' },
+        { word: 'Therapy', meaning: 'Treatment intended to relieve or heal a disorder', example: 'She attends physical therapy twice a week to recover from her injury.' },
+        { word: 'Symptoms', meaning: 'Physical or mental features indicating a medical condition', example: 'Her symptoms include cough and fever.' },
+        { word: 'Diagnosis', meaning: 'The identification of a disease', example: 'The doctor gave a quick diagnosis.' },
+        { word: 'Infection', meaning: 'A disease caused by bacteria or viruses', example: 'He is recovering from a chest infection.' },
+        { word: 'Allergy', meaning: 'A reaction to a substance', example: 'I have an allergy to nuts.' },
+        { word: 'Chronic', meaning: 'Long-lasting or recurring', example: 'She has chronic back pain.' },
+        { word: 'Treatment', meaning: 'Medical care given to a patient', example: 'He is receiving treatment for diabetes.' },
+        { word: 'Surgery', meaning: 'An operation to treat a condition', example: 'She had surgery on her leg.' },
+        { word: 'Recovery', meaning: 'The process of getting better', example: 'Her recovery took two weeks.' },
+        { word: 'Emergency', meaning: 'A serious, urgent medical situation', example: 'Call 1990 in a medical emergency.' },
+        { word: 'Vaccine', meaning: 'A substance used to prevent disease', example: 'Did you get your flu vaccine?' },
+        { word: 'Wellness', meaning: 'A general state of good health', example: 'She focuses on wellness through exercise and diet.' }
       ],
       quiz: [
         {
@@ -214,12 +214,12 @@ export default function ThematicVocabularyScreen() {
           correctAnswer: 1
         },
         {
-          question: 'Physical or mental features indicating a condition are:',
+          question: 'Physical or mental signs of illness are called:',
           options: ['Symptoms', 'Signs', 'Indicators', 'Markers'],
           correctAnswer: 0
         },
         {
-          question: 'The identification of an illness or condition is called:',
+          question: 'What is the term for identifying an illness or condition?',
           options: ['Analysis', 'Assessment', 'Evaluation', 'Diagnosis'],
           correctAnswer: 3
         }
